@@ -1,0 +1,19 @@
+{
+  "name": "archoj-backend",
+  "version": "0.0.0",
+  "scripts": {},
+  "dependencies": {
+    "aws-amplify": "^4.3.22"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1137.0",
+    "eslint": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.5.1"
+  }
+}
