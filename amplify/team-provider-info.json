@@ -10,6 +10,14 @@
       "StackName": "amplify-archoj-dev-04514",
       "StackId": "arn:aws:cloudformation:us-east-2:768591234308:stack/amplify-archoj-dev-04514/58a77600-fedd-11ec-8aeb-06af58bc7634",
       "AmplifyAppId": "druc3k27n6dnj"
+    },
+    "categories": {
+      "function": {
+        "getPath": {
+          "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
+          "s3Key": "amplify-builds/getPath-35772f697053482b2f73-build.zip"
+        }
+      }
     }
   }
 }

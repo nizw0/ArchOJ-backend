@@ -91,5 +91,23 @@
         }
       ]
     }
+  },
+  "storage": {
+    "Users": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    },
+    "Problems": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    },
+    "Testcases": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    },
+    "Submissions": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }

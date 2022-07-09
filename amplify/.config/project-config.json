@@ -7,8 +7,8 @@
     "config": {
       "SourceDir": "src",
       "DistributionDir": "dist",
-      "BuildCommand": "yarn build",
-      "StartCommand": "yarn preview"
+      "BuildCommand": "pnpm build",
+      "StartCommand": "pnpm preview"
     }
   },
   "providers": [

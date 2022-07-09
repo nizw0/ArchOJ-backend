@@ -1,0 +1,10 @@
+{
+  "resourceName": "Submissions",
+  "tableName": "Submissions",
+  "partitionKey": {
+    "fieldName": "Id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
