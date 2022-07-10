@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk')
 const DynamoDB = new AWS.DynamoDB.DocumentClient()
-const TableName = 'Users-dev'
+const TableName = 'Submissions-dev'
 
 exports.handler = async (event) => {
   let statusCode = 200

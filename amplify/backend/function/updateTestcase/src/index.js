@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk')
 const DynamoDB = new AWS.DynamoDB.DocumentClient()
-const TableName = 'Users-dev'
+const TableName = 'Testcases-dev'
 
 exports.handler = async (event) => {
   let statusCode = 200
@@ -14,29 +14,29 @@ exports.handler = async (event) => {
   const Id = event.pathParameters.id
   if (Id !== undefined) {
     const props = JSON.parse(event.body)
-    const Name = props.name
-    const Class = props.class
-    const Phone = props.phone
+    const ProblemId = props.problemId
+    const Input = props.input
+    const Output = props.output
 
     const res = await (() => {
       const params = {
         TableName,
         Key: {
           Id,
-          Name,
-          Class,
-          Phone
+          ProblemId,
+          Input,
+          Output
         },
-        UpdateExpression: 'SET #Name = :Name, #Class = :Class, #Phone = :Phone',
+        UpdateExpression: 'SET #ProblemId = :ProblemId, #Input = :Input, #Output = :Output',
         ExpressionAttributeNames: {
-          '#Name': 'Name',
-          '#Class': 'Class',
-          '#Phone': 'Phone'
+          '#ProblemId': 'ProblemId',
+          '#Input': 'Input',
+          '#Output': 'Output'
         },
         ExpressionAttributeValues: {
-          ':Name': Name,
-          ':Class': Class,
-          ':Phone': Phone
+          ':ProblemId': ProblemId,
+          ':Input': Input,
+          ':Output': Output
         },
         ReturnValues: 'UPDATED_NEW'
       }

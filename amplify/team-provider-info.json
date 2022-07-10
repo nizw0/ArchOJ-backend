@@ -19,11 +19,43 @@
         },
         "getUser": {
           "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
-          "s3Key": "amplify-builds/getUser-77336a44595361667243-build.zip"
+          "s3Key": "amplify-builds/getUser-2f457a55706143524563-build.zip"
         },
         "updateUser": {
           "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
-          "s3Key": "amplify-builds/updateUser-696e7149304836367855-build.zip"
+          "s3Key": "amplify-builds/updateUser-36587275654478522b48-build.zip"
+        },
+        "updateTestcase": {
+          "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
+          "s3Key": "amplify-builds/updateTestcase-54434772486d566a3730-build.zip"
+        },
+        "createTestcase": {
+          "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
+          "s3Key": "amplify-builds/createTestcase-4c78556b757074773835-build.zip"
+        },
+        "getProblem": {
+          "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
+          "s3Key": "amplify-builds/getProblem-6e59634161674f384c79-build.zip"
+        },
+        "getTestcase": {
+          "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
+          "s3Key": "amplify-builds/getTestcase-57446f796f66426e6578-build.zip"
+        },
+        "updateProblem": {
+          "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
+          "s3Key": "amplify-builds/updateProblem-6637676c47644e434468-build.zip"
+        },
+        "createProblem": {
+          "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
+          "s3Key": "amplify-builds/createProblem-4e635579683643516753-build.zip"
+        },
+        "getSubmission": {
+          "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
+          "s3Key": "amplify-builds/getSubmission-4e55517663583467577a-build.zip"
+        },
+        "createSubmission": {
+          "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
+          "s3Key": "amplify-builds/createSubmission-4932526552335a666c54-build.zip"
         }
       }
     }
