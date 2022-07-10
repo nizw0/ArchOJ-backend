@@ -16,6 +16,14 @@
         "getPath": {
           "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
           "s3Key": "amplify-builds/getPath-35772f697053482b2f73-build.zip"
+        },
+        "getUser": {
+          "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
+          "s3Key": "amplify-builds/getUser-77336a44595361667243-build.zip"
+        },
+        "updateUser": {
+          "deploymentBucketName": "amplify-archoj-dev-04514-deployment",
+          "s3Key": "amplify-builds/updateUser-696e7149304836367855-build.zip"
         }
       }
     }
